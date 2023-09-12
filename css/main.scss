@@ -1,5 +1,3 @@
-$color: blue;
+// Base
+@import './base/reset';
 
-body {
-  color: $color;
-}

@@ -12,15 +12,17 @@
 }
 
 /* Links */
-a, a:link, a:visited {
+
+a, a:link, a:visited  {
   text-decoration: none;
 }
 
-a:hover {
+a:hover  {
   text-decoration: none;
 }
 
 /* Common */
+
 aside, nav, footer, header, section, main {
   display: block;
 }
@@ -48,6 +50,7 @@ address {
 }
 
 /* Form */
+
 input, textarea, button, select {
   font-family: inherit;
   font-size: inherit;
@@ -59,7 +62,7 @@ input::-ms-clear {
   display: none;
 }
 
-button, input[type=submit] {
+button, input[type="submit"] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;
@@ -84,5 +87,3 @@ label {
 legend {
   display: block;
 }
-
-/*# sourceMappingURL=main.css.map */
