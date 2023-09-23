@@ -11,6 +11,10 @@
     @include decorNumber;
     top: 180px;
   }
+
+  @include mediaTablet {
+    padding: 90px 0;
+  }
 }
 
 .section-map__title {

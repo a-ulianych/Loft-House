@@ -624,6 +624,11 @@ a:hover {
   font-family: "Playfair Display", serif;
   top: 180px;
 }
+@media screen and (max-width: 959px) {
+  .section-map {
+    padding: 90px 0;
+  }
+}
 
 .section-map__title {
   margin-bottom: 88px;
