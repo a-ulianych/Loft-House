@@ -412,4 +412,23 @@ a:hover {
   background-color: #626262;
 }
 
+.feedback {
+  padding-bottom: 180px;
+}
+
+.feedback__title {
+  margin-bottom: 38px;
+}
+
+.feedback__form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.feedback__form-privacy {
+  padding-right: 5px;
+}
+
 /*# sourceMappingURL=main.css.map */
